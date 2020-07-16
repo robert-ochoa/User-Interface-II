@@ -1,0 +1,95 @@
+@media(max-width: 800px) {
+  .container {
+    width: 800px;
+    background: lightblue;
+  }
+}
+
+
+@media(max-width: 500px) {
+  .container {
+    width: 500px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+  .navCon {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+body {
+    background-color: #215f5a;
+    border: black;
+}
+
+ h1 {
+    color: black;
+    text-align: center;
+}
+
+.navCon {
+    display: flex;
+
+}
+.midCon {
+    font-size:1.6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.one{
+  background-color:rebeccapurple;
+  width: 25%;
+}
+.two{
+  background-color:papayawhip;
+  width: 25%;
+}
+.three{
+  background-color:#BADA55;
+  width: 25%;
+}
+.four{
+  background-color:lightblue;
+  width: 25%;
+}
+
+
+/* write a media query that changes the background color of div one to green and the background color of div two to yellow and the font size to 20px (using responsive units) when the browser reaches 940px*/
+
+
+
+/*write a media query that stacks the divs in two rows of two when the browsers reaches 767 px and changes all of the background colours to pink and the font size to 18px (using responsive units) */
+
+
+
+/*write a rule that stacks all of the divs on top of eachother and changes the background colors of div one and three to blue and two and four to white and changes the font size to 16px (using responsive units) when the browsers reaches 480px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #FFCD69;
+    width: 100%;
+    height: 100%;
+}
+
